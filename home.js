@@ -1,9 +1,21 @@
 let price = 49.99,
+    taxRate = 0.07,
     name = 'Hiking Boots',
     discounted = false;
 
-price = 99.99
+const fixedPrice = 10;
 
-const fixedPrice = 10
+price += fixedPrice;
 
-showMessage(price);
+let message = `Hello
+
+
+World`
+console.log(message)
+
+let person = {
+    firstName: 'John',
+    lastName: 'Adams'
+}
+
+showMessage(person.firstName);
